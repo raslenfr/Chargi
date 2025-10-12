@@ -1,239 +1,159 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>⚡ CHARGI — Smart Electric Car Charging Station</title>
-  <style>
-    :root{
-      --bg:#0f1724; /* dark background */
-      --card:#0b1220;
-      --muted:#94a3b8;
-      --accent:#81e54f;
-      --accent2:#f7d948;
-      --glass: rgba(255,255,255,0.03);
-      --card-padding:22px;
-      --radius:14px;
-      --mono: "Segoe UI Mono", "Roboto Mono", Menlo, monospace;
-      --ui: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
-    }
-    *{box-sizing:border-box}
-    html,body{height:100%;margin:0;font-family:var(--ui);background:linear-gradient(180deg,#071022 0%, #071224 65%);color:#e6eef6}
-    .container{max-width:980px;margin:36px auto;padding:20px}
-    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border:1px solid rgba(255,255,255,0.03); border-radius:var(--radius); padding:var(--card-padding); box-shadow:0 6px 24px rgba(2,6,23,0.6)}
-    header{display:flex;gap:18px;align-items:center}
-    .logo{
-      width:86px;height:86px;border-radius:12px;display:flex;align-items:center;justify-content:center;
-      background:linear-gradient(135deg,var(--accent),var(--accent2));font-size:34px;font-weight:700;color:#072218;
-      box-shadow:0 6px 18px rgba(129,229,79,0.12);
-    }
-    h1{margin:0;font-size:26px}
-    p.lead{color:var(--muted);margin-top:6px}
-    .grid{display:grid;grid-template-columns:1fr 340px;gap:18px;margin-top:18px}
-    .full{grid-column:1 / -1}
-    table{width:100%;border-collapse:collapse;margin-top:10px}
-    th,td{padding:10px 12px;text-align:left;border-bottom:1px dashed rgba(255,255,255,0.03)}
-    th{color:var(--muted);font-weight:600}
-    .badge{display:inline-block;background:rgba(255,255,255,0.04);padding:6px 10px;border-radius:999px;font-weight:600;color:var(--accent);margin-right:8px}
-    .section-title{display:flex;align-items:center;gap:12px;margin:8px 0 12px}
-    .components{background:var(--glass);padding:14px;border-radius:12px}
-    .component-line{display:flex;gap:12px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.02)}
-    .component-line:last-child{border-bottom:0}
-    .component-name{min-width:220px;font-weight:700;color:#dffbe2}
-    .component-role{flex:1;color:var(--muted)}
-    .summary{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.005));padding:14px;border-radius:10px;border:1px solid rgba(255,255,255,0.02);color:#d9f7d8}
-    footer{margin-top:18px;color:var(--muted);font-size:14px}
-    code{font-family:var(--mono);background:rgba(255,255,255,0.02);padding:6px 8px;border-radius:6px;color:#cce7c8}
-    .btn{display:inline-block;background:var(--accent);color:#062216;padding:10px 14px;border-radius:10px;font-weight:700;text-decoration:none;margin-top:8px}
-    @media (max-width:900px){ .grid{grid-template-columns:1fr} .logo{width:64px;height:64px;font-size:28px} }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="card">
-      <header>
-        <div class="logo">⚡</div>
-        <div>
-          <h1>⚡ CHARGI — Smart Electric Car Charging Station</h1>
-          <p class="lead">C++ (Qt) desktop app + Arduino-powered 3D maquette for managing EV charging, maintenance, cars, clients & employees.</p>
-        </div>
-      </header>
+⚡ CHARGI — Smart Electric Car Charging Station
 
-      <div class="grid" style="margin-top:18px">
-        <div>
-          <section class="card" style="padding:18px">
-            <div class="section-title"><span class="badge">🧠</span><strong>Project Overview</strong></div>
-            <p style="color:var(--muted)">CHARGI is a 2nd-year engineering project combining IoT, embedded systems and desktop software to deliver an eco-friendly charging station management tool. Highlights:</p>
-            <ul style="color:var(--muted);margin:8px 0 0 18px">
-              <li>Simplifies station management and employee-client communication</li>
-              <li>Automates offers, loyalty cards, notifications</li>
-              <li>Integrates Arduino sensors & actuators with a Qt desktop interface</li>
-            </ul>
-          </section>
+🚗 Chargi is a C++ Qt-based desktop application connected to an Arduino-powered 3D prototype of an electric vehicle (EV) charging station.
+It provides a complete management system for electric car charging operations — from clients to cars, maintenance, employees, and charging points.
 
-          <section class="card" style="margin-top:14px;padding:18px">
-            <div class="section-title"><span class="badge">🧩</span><strong>Main Modules</strong></div>
-            <table>
-              <thead><tr><th>Module</th><th>Description</th><th>Key Features</th></tr></thead>
-              <tbody>
-                <tr><td>🚙 Car Management</td><td>Manage vehicles</td><td>Add/Edit/Delete/View, history, PDF export, stats</td></tr>
-                <tr><td>👨‍💼 Employee Management</td><td>Handle staff</td><td>Auth, CRUD, PDF exports, sorting</td></tr>
-                <tr><td>👥 Client Management</td><td>Client profiles & loyalty</td><td>Loyalty cards, Happy-Hour, stats</td></tr>
-                <tr><td>🔧 Maintenance Management</td><td>Two garages (repair & wash)</td><td>Automated barriers, status LEDs, employee control</td></tr>
-                <tr><td>🔋 EV Charging Point Mgmt</td><td>Charging point control</td><td>Live status, solar recharge mode, Happy-Hour</td></tr>
-              </tbody>
-            </table>
-          </section>
+🧠 Project Overview
 
-          <section class="card" style="margin-top:14px;padding:18px">
-            <div class="section-title"><span class="badge">⚙️</span><strong>Technical Stack</strong></div>
-            <p style="color:var(--muted);margin:0">C++ / Qt • Oracle SQL • Arduino (Uno) • Sensors, servos, LCDs • 3D maquette (solar + garages)</p>
-          </section>
-        </div>
+Chargi was created as a 2nd-year engineering project combining IoT, embedded systems, and software engineering.
+The goal is to build an intelligent, eco-friendly charging station system that:
 
-        <aside>
-          <div class="card" style="padding:14px">
-            <strong>Team</strong>
-            <ul style="color:var(--muted);margin:8px 0 0 16px">
-              <li>Raslen Ferchichi</li>
-              <li>Fares Ben Ammar</li>
-              <li>Alaa Bouchakour</li>
-              <li>Youssef Ben Arous</li>
-              <li>Jasser Ben Yahmadi</li>
-            </ul>
-            <div style="margin-top:12px">
-              <strong>Contact</strong>
-              <p style="color:var(--muted);margin:6px 0 0">📧 <code>raslenferchihi1@gmail.com</code><br/>📞 +216 29775523</p>
-            </div>
-            <a class="btn" href="#" onclick="navigator.clipboard?.writeText('https://github.com/yourusername/Chargi')">Copy GitHub link</a>
-          </div>
-        </aside>
-      </div>
+Simplifies station management 🧾
 
-      <!-- IoT & Arduino Integration -->
-      <div class="full" style="margin-top:18px">
-        <div class="section-title"><span class="badge">🌍</span><strong>IoT & Arduino Integration</strong></div>
-        <div class="components card" aria-hidden="false">
-          <div style="margin-bottom:8px;color:var(--muted)">The physical 3D maquette connects the C++ Qt desktop app with Arduino components to simulate a real-world smart electric car charging station. Each element interacts with sensors, motors and displays to automate tasks and ensure efficiency.</div>
+Improves communication between employees and clients 💬
 
-          <!-- Components list -->
-          <div class="component-line">
-            <div class="component-name">🚗 Infrared (IR) Sensor</div>
-            <div class="component-role">Detects car entry — Used with: <strong>Buzzer</strong> + <strong>Servo Motor (Barrier)</strong></div>
-          </div>
+Automates offers, loyalty cards, and notifications 🎁
 
-          <div class="component-line">
-            <div class="component-name">🔊 Buzzer</div>
-            <div class="component-role">Sound indicator — Used with: <strong>IR Sensor</strong>, <strong>Charging LEDs</strong></div>
-          </div>
+Integrates real-time Arduino sensors and displays 🧩
 
-          <div class="component-line">
-            <div class="component-name">⚙️ Servo Motor (Barrier Gate)</div>
-            <div class="component-role">Controls vehicle entry/exit — Used with: <strong>IR Sensor</strong> + <strong>LCD</strong></div>
-          </div>
+🧩 Main Modules
 
-          <div class="component-line">
-            <div class="component-name">🪪 RFID Reader (RC522)</div>
-            <div class="component-role">Identifies driver/car — Used with: <strong>RFID Card</strong> + <strong>LCD</strong> + <strong>C++ Database</strong></div>
-          </div>
+The project includes five management modules, each linked to Arduino elements and database logic:
 
-          <div class="component-line">
-            <div class="component-name">💡 Red & Green LEDs</div>
-            <div class="component-role">Charging state indicators — Used with: <strong>Buzzer</strong> + <strong>LCD</strong> + <strong>Charging Port</strong> (Red = charging, Green = finished)</div>
-          </div>
+Module	Description	Features
+🚙 Car Management	Manage vehicles connected to the station	Add / Edit / Delete / View cars, vehicle history, charging duration display, PDF export, statistics
+👨‍💼 Employee Management	Handle employee records and access	Add / Edit / Delete / View employees, authentication, prime membership, sorting, PDF export
+👥 Client Management	Manage client data and loyalty system	Add / Edit / Delete / View clients, offer loyalty cards, Happy Hour alerts, statistics
+🔧 Maintenance Management	Manage two garages (car wash & repair)	Add / Edit / Delete / View records, automated garage barriers, status LEDs, and RFID control
+🔋 EV Charging Point Management	Control and monitor charging points	Add / Edit / Delete / View stations, live updates, solar recharge mode, Happy Hour feature
+⚙️ Technical Stack
+Category	Tools / Technologies
+💻 Desktop App	C++ / Qt Framework
+🔌 Hardware	Arduino Uno, sensors, motors, LCD screens
+🧮 Database	Oracle SQL
+🎨 UI Design	Qt Designer, Slidesgo visuals
+🔐 Security	User authentication via CIN & password
+🌞 Prototype	3D maquette powered by solar tracking and Arduino sensors
+🌍 IoT & Arduino Integration
 
-          <div class="component-line">
-            <div class="component-name">📟 LCD Display (16x2 / 20x4)</div>
-            <div class="component-role">Shows charge %, cost, duration, EV point battery status — Used with: <strong>RFID</strong>, <strong>Temp Sensor</strong>, <strong>Solar Battery</strong></div>
-          </div>
+The physical 3D maquette connects the C++ Qt desktop app with Arduino components to simulate a real-world smart electric car charging station.
+Each element of the station interacts with sensors, motors, and displays to automate tasks and ensure efficiency.
 
-          <div class="component-line">
-            <div class="component-name">🔘 Push Button</div>
-            <div class="component-role">Start/stop charging — Used with: <strong>LCD</strong> + <strong>C++ Interface</strong></div>
-          </div>
+⚙️ Components Overview
 
-          <div class="component-line">
-            <div class="component-name">🌡️ Temperature Sensor (DHT11 / LM35)</div>
-            <div class="component-role">Monitors ambient temperature — Used with: <strong>LCD Display</strong></div>
-          </div>
+🚗 Infrared (IR) Sensor — Detects car entry | Used with: Buzzer + Servo Motor (Barrier)
 
-          <div class="component-line">
-            <div class="component-name">☀️ Light Sensors (LDR x2)</div>
-            <div class="component-role">Detect sunlight direction/intensity — Used with: <strong>Dual Servo Motors</strong> for solar rotation</div>
-          </div>
+Detects when a vehicle enters the station area. When triggered, it sends a signal to the buzzer to beep and to the servo motor to lift the entry barrier.
 
-          <div class="component-line">
-            <div class="component-name">⚙️ Dual Servo Motors (Solar Rotation)</div>
-            <div class="component-role">Rotate the solar panel (e.g., 20°/30° left or right) — Used with: <strong>LDRs</strong> + <strong>Solar Panel</strong></div>
-          </div>
+🔊 Buzzer — Sound indicator | Used with: IR Sensor, Charging LEDs
 
-          <div class="component-line">
-            <div class="component-name">🔋 Rechargeable Battery (12V / Power Bank)</div>
-            <div class="component-role">Stores solar energy — Used with: <strong>Solar Panel</strong> + <strong>EV Charging Point</strong></div>
-          </div>
+Emits sound when a car enters or when charging sessions start or end.
 
-          <!-- Maintenance components -->
-          <div style="margin-top:12px;font-weight:700;color:#dffbe2">🧰 Maintenance Management Components</div>
+⚙️ Servo Motor (Barrier Gate) — Controls vehicle entry/exit | Used with: IR Sensor + LCD
 
-          <div class="component-line">
-            <div class="component-name">🪪 RFID Reader (RC522)</div>
-            <div class="component-role">Identifies client car before maintenance access — Used with: <strong>Servo Motor</strong> + <strong>LCD</strong></div>
-          </div>
+Opens or closes the physical barrier when a car arrives or when charging is complete.
 
-          <div class="component-line">
-            <div class="component-name">⚙️ Servo Motor (Entrance Barrier - Maintenance)</div>
-            <div class="component-role">Controls access to both garages — Used with: <strong>RFID</strong> + <strong>IR Sensor</strong></div>
-          </div>
+🪪 RFID Reader (RC522 module) — Identifies driver and car information | Used with: RFID Card + LCD + C++ Database
 
-          <div class="component-line">
-            <div class="component-name">🚦 IR Sensor (Garage Entry Detection)</div>
-            <div class="component-role">Detects car movement into maintenance path — Used with: <strong>Servo Motor (Barrier)</strong> + <strong>Buzzer</strong></div>
-          </div>
+Reads the driver’s ID card to retrieve client info, balance, and vehicle details from the database.
 
-          <div class="component-line">
-            <div class="component-name">🔘 Push Button (Employee Control)</div>
-            <div class="component-role">Manual exit barrier control — Used with: <strong>Servo Motor</strong> + <strong>LCD</strong></div>
-          </div>
+💡 Red and Green LEDs — Visual indicators of charging state | Used with: Buzzer + LCD + Charging Port
 
-          <div class="component-line">
-            <div class="component-name">⚙️ Servo Motors (x2 - Garage Barriers)</div>
-            <div class="component-role">Control maintenance & car wash garage doors — Used with: <strong>Push Button</strong> + <strong>IR Sensor</strong></div>
-          </div>
+🔴 Red = Charging in progress.
+🟢 Green = Charging complete.
+When charging starts, the red LED turns on; when done, it turns off and the green LED blinks.
 
-          <div class="component-line">
-            <div class="component-name">💧 Water Sprinkler Motor (Car Wash)</div>
-            <div class="component-role">Activates water spray for cleaning — Used with: <strong>Button</strong> + <strong>C++ Interface</strong></div>
-          </div>
+📟 LCD Display (16x2 or 20x4) — Displays system information | Used with: RFID, Temperature Sensor, Solar Battery, Charging Station
 
-          <div class="component-line">
-            <div class="component-name">💡 LED Indicators (Garage Status)</div>
-            <div class="component-role">Show garage availability (red = occupied / green = free) — Used with: <strong>C++ Interface</strong> + <strong>LCD</strong></div>
-          </div>
-        </div>
+Shows car charge percentage, charging cost, duration, and current EV station battery status.
 
-        <!-- Summaries -->
-        <div style="margin-top:14px" class="summary">
-          <h3 style="margin-top:0">☀️ Solar System Integration Summary</h3>
-          <p style="margin:6px 0 0">
-            The CHARGI solar module maximizes solar energy capture. Two LDR light sensors measure sunlight intensity on each side; the Arduino compares readings and instructs the dual servo motors to rotate the solar panel (for example, 20°–30° left or right) so it faces the brightest direction. The temperature sensor (DHT11) provides weather data to the LCD for visualization. Collected energy is stored in the rechargeable battery (12V / power bank). When stored energy drops below a threshold (≈20–30%), the system notifies the LCD and disables EV access by closing the servo barrier; the EV charging point then recharges from solar/battery until restored, at which point the red LED turns off and access resumes.
-          </p>
-        </div>
+🔘 Push Button — Starts or stops charging | Used with: LCD + C++ Interface
 
-        <div style="margin-top:12px" class="summary">
-          <h3 style="margin-top:0">🧰 Maintenance System Integration Summary</h3>
-          <p style="margin:6px 0 0">
-            The maintenance system controls two garages (repair & car wash). When a vehicle arrives, the RFID reader validates the client and triggers the entrance servo barrier to open briefly. An IR sensor confirms entry and closes the barrier after the car passes. Inside, each garage has its own servo barrier and LED status indicator. For the car wash, an employee uses a push button to start the sprinkler motor (washing), and then presses the button again to open the exit barrier when the service completes. The maintenance garage follows the same entry/exit flow. This logic is synchronized with the C++ desktop app so the operator sees live statuses on the LCD and in the management interface.
-          </p>
-        </div>
-      </div>
+The user presses this button to begin or stop the charging session after choosing the desired charge percentage.
 
-      <footer style="margin-top:16px">
-        <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
-          <div style="color:var(--muted)">🌱 CHARGI promotes renewable energy and efficient station management</div>
-          <div style="color:var(--muted)">Contact: <code>raslenferchihi1@gmail.com</code> • +216 29775523</div>
-        </div>
-      </footer>
-    </div>
-  </div>
-</body>
-</html>
+🌡️ Temperature Sensor (DHT11 or LM35) — Monitors ambient temperature | Used with: LCD Display
+
+Measures the environment’s temperature and sends data to the LCD for display purposes near the solar system.
+
+☀️ Light Sensors (LDR Modules x2) — Detect sunlight direction and intensity | Used with: Servo Motors (Solar Panel Rotation)
+
+Compare light intensity on both sides to determine where the sunlight is strongest.
+
+⚙️ Dual Servo Motors (Solar Rotation Motors) — Rotate the solar panel | Used with: Light Sensors + Solar Panel
+
+Receive directional data from the light sensors and rotate the solar panel accordingly (e.g., 20° left or right) to maximize light capture.
+
+🔋 Rechargeable Battery (Power Bank / 12V Battery) — Stores collected solar energy | Used with: Solar Panel + EV Charging Point
+
+Stores energy from the solar panel and supplies power to the EV station when sunlight is insufficient.
+
+🧰 Maintenance Management Components
+
+🪪 RFID Reader (RC522) — Identifies client car before maintenance access | Used with: Servo Motor + LCD Display
+
+Ensures that only authorized cars enter the maintenance area after ID validation.
+
+⚙️ Servo Motor (Entrance Barrier – Maintenance Area) — Controls access to maintenance garages | Used with: RFID Reader + IR Sensor
+
+Lifts the barrier once the RFID verifies the client, then automatically closes after a few seconds.
+
+🚦 IR Sensor (Garage Entry Detection) — Detects car movement into the maintenance path | Used with: Servo Motor (Barrier) + Buzzer
+
+Detects when a car passes the entrance or exit to trigger barrier movements and safety signals.
+
+🔘 Push Button (Employee Control) — Manual control for garage exit barrier | Used with: Servo Motor + LCD Display
+
+Allows the employee to open the exit barrier once maintenance or washing is completed.
+
+⚙️ Servo Motors (x2 — Garage Barriers) — Control both the maintenance and car wash garage doors | Used with: Push Button + IR Sensor
+
+Automatically close after a car enters and reopen upon manual employee command after the service is finished.
+
+💧 Water Sprinkler Motor (Car Wash) — Activates water spray for cleaning | Used with: Button + C++ Interface
+
+Turns on during washing sessions, simulating automatic car cleaning.
+
+💡 LED Indicators (Garage Status) — Show garage availability | Used with: C++ Interface + LCD Display
+
+Indicate whether a garage is occupied (red) or free (green).
+
+☀️ Solar System Integration Summary
+
+The solar system in CHARGI is a smart, self-adjusting module designed to maximize solar energy capture and power the EV charging stations efficiently. Two LDR light sensors continuously monitor sunlight intensity from both sides. Based on their readings, the Arduino microcontroller calculates the optimal direction and instructs the dual servo motors to rotate the solar panel — for example, by 20° or 30° left or right — to face the brightest spot. The temperature sensor (DHT11) provides environmental data to the LCD display, giving users real-time weather information. The captured energy is stored in a rechargeable 12V battery, which powers the EV charging point when solar input is low. When the stored power drops below 20–30%, the system automatically alerts the LCD display and disables the EV access by closing the servo barrier, allowing recharging to occur until the battery reaches 100%. Once full, the red LED turns off, and the barrier opens again for cars to resume charging sessions.
+
+🧰 Maintenance System Integration Summary
+
+The maintenance management system controls two separate garages: one for mechanical repairs and one for car washing. As a car approaches the maintenance area, the RFID reader identifies the client’s vehicle and sends a signal to the servo motor to lift the entrance barrier. An IR sensor confirms the car’s entry and automatically triggers the barrier to close after a few seconds, ensuring safety. Inside the area, the car can enter either garage — each equipped with its own servo motor barrier and LED indicators to show whether the garage is occupied or available.
+
+In the car wash garage, the employee activates a push button to start the washing process, turning on the sprinkler motor that simulates the car-cleaning cycle. Once finished, the employee presses the same button to reopen the exit barrier, allowing the car to leave while the LED switches back to green.
+
+The same process applies to the maintenance garage, where the system ensures organized entry, service, and exit flow. Together, these components create an automated, efficient, and environmentally responsible maintenance management system fully synchronized with the C++ desktop application.
+
+🌱 Sustainable Impact
+
+Chargi supports sustainability and smart resource management by:
+
+Using renewable solar energy ☀️
+
+Promoting water efficiency 🚿
+
+Reducing pollution through EV adoption 🌍
+
+Encouraging smart automation for cleaner cities 🌿
+
+👩‍💻 Team
+
+👨‍🔧 Project Contributors
+
+Raslen Ferchichi
+
+Fares Ben Ammar
+
+Alaa Bouchakour
+
+Youssef Ben Arous
+
+Jasser Ben Yahmadi
+
+🎓 2A18 Engineering Students
+
