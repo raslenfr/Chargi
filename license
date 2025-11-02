@@ -1,2 +1,361 @@
-Chargi © 2025 Raslen FerchichiThis work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).You are free to:  ✅ View and study the code for learning and reference purposes.Under the following terms:  ❌ Attribution — You must give appropriate credit to Raslen Ferchichi.  ❌ NonCommercial — You may not use the material for commercial purposes.  ❌ NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material.⚠️ Important:This project is for learning and reference purposes only.Do not copy, modify, distribute, or use it as your own project.
-0 commit commentsComments0 (0)Lock conversation
+# 📄 MIT License
+
+## 🔒 License Overview
+
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>Details</th>
+<th>Permissions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>License Type</strong></td>
+<td>MIT License</td>
+<td>Permissive Open Source</td>
+</tr>
+<tr>
+<td><strong>Copyright Holder</strong></td>
+<td>Raslen (2025)</td>
+<td>Original author rights maintained</td>
+</tr>
+<tr>
+<td><strong>Freedom Level</strong></td>
+<td>High</td>
+<td>Commercial use, modification, distribution</td>
+</tr>
+<tr>
+<td><strong>Requirements</strong></td>
+<td>Minimal</td>
+<td>Include copyright notice</td>
+</tr>
+</tbody>
+</table>
+
+## 📋 License Terms Summary
+
+<table>
+<thead>
+<tr>
+<th>Permission</th>
+<th>Description</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>✅ Commercial Use</strong></td>
+<td>Use software in commercial products</td>
+<td>Allowed without restrictions</td>
+</tr>
+<tr>
+<td><strong>✅ Modification</strong></td>
+<td>Change and adapt source code</td>
+<td>Allowed for any purpose</td>
+</tr>
+<tr>
+<td><strong>✅ Distribution</strong></td>
+<td>Share original or modified versions</td>
+<td>Allowed freely</td>
+</tr>
+<tr>
+<td><strong>✅ Sublicensing</strong></td>
+<td>Include in larger works with different licenses</td>
+<td>Permitted</td>
+</tr>
+<tr>
+<td><strong>✅ Private Use</strong></td>
+<td>Use without sharing modifications</td>
+<td>No obligation to disclose changes</td>
+</tr>
+</tbody>
+</table>
+
+## ⚠️ License Conditions
+
+<table>
+<thead>
+<tr>
+<th>Condition</th>
+<th>Requirement</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Copyright Notice</strong></td>
+<td>Include original copyright notice in all copies</td>
+<td>Attribution to original author</td>
+</tr>
+<tr>
+<td><strong>License Text</strong></td>
+<td>Include full license text in substantial portions</td>
+<td>Legal compliance and transparency</td>
+</tr>
+</tbody>
+</table>
+
+## 🚫 Limitations & Disclaimers
+
+<table>
+<thead>
+<tr>
+<th>Limitation</th>
+<th>Description</th>
+<th>Impact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>No Warranty</strong></td>
+<td>Software provided "as is" without guarantees</td>
+<td>Users assume all risk</td>
+</tr>
+<tr>
+<td><strong>No Liability</strong></td>
+<td>Author not responsible for damages</td>
+<td>Legal protection for copyright holder</td>
+</tr>
+<tr>
+<td><strong>No Support Obligation</strong></td>
+<td>No requirement to provide updates or help</td>
+<td>Community-driven support</td>
+</tr>
+</tbody>
+</table>
+
+## 📝 Compliance Requirements
+
+### For Users
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Requirement</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Using the Software</strong></td>
+<td>No requirements for internal use</td>
+<td>Can use privately without attribution</td>
+</tr>
+<tr>
+<td><strong>Distributing Software</strong></td>
+<td>Include copyright and license notices</td>
+<td>Keep LICENSE file in distributed copies</td>
+</tr>
+<tr>
+<td><strong>Modifying Software</strong></td>
+<td>Same distribution requirements apply</td>
+<td>Include original copyright in derivatives</td>
+</tr>
+</tbody>
+</table>
+
+### For Developers
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>Compliance Action</th>
+<th>Best Practice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Forking Repository</strong></td>
+<td>Maintain original LICENSE file</td>
+<td>Keep copyright notice intact</td>
+</tr>
+<tr>
+<td><strong>Using in Commercial Product</strong></td>
+<td>Include license in documentation</td>
+<td>Add to NOTICE file or about section</td>
+</tr>
+<tr>
+<td><strong>Creating Derivatives</strong></td>
+<td>Preserve original copyright notices</td>
+<td>Add your copyright alongside original</td>
+</tr>
+</tbody>
+</table>
+
+## 🌟 Benefits of MIT License
+
+<table>
+<thead>
+<tr>
+<th>Benefit</th>
+<th>Description</th>
+<th>Impact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Business-Friendly</strong></td>
+<td>No copyleft restrictions</td>
+<td>Ideal for commercial adoption</td>
+</tr>
+<tr>
+<td><strong>Developer Freedom</strong></td>
+<td>Minimal restrictions on use</td>
+<td>Encourages widespread adoption</td>
+</tr>
+<tr>
+<td><strong>Community Growth</strong></td>
+<td>Easy to contribute and fork</td>
+<td>Fosters open collaboration</td>
+</tr>
+<tr>
+<td><strong>Legal Simplicity</strong></td>
+<td>Clear, understandable terms</td>
+<td>Reduces legal overhead</td>
+</tr>
+</tbody>
+</table>
+
+## 🔍 Comparison with Other Licenses
+
+<table>
+<thead>
+<tr>
+<th>License</th>
+<th>Freedom Level</th>
+<th>Commercial Use</th>
+<th>Modification Requirements</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>MIT License</strong></td>
+<td>Very High</td>
+<td>✅ Allowed</td>
+<td>Minimal (attribution only)</td>
+</tr>
+<tr>
+<td><strong>Apache 2.0</strong></td>
+<td>High</td>
+<td>✅ Allowed</td>
+<td>Moderate (patent protection)</td>
+</tr>
+<tr>
+<td><strong>GPL v3</strong></td>
+<td>Medium</td>
+<td>✅ Allowed</td>
+<td>High (copyleft requirements)</td>
+</tr>
+<tr>
+<td><strong>BSD 3-Clause</strong></td>
+<td>Very High</td>
+<td>✅ Allowed</td>
+<td>Minimal (no endorsement)</td>
+</tr>
+</tbody>
+</table>
+
+## 📊 License Statistics
+
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+<th>Significance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Popularity Rank</strong></td>
+<td>#2 Most Popular OSS License</td>
+<td>Widely recognized and accepted</td>
+</tr>
+<tr>
+<td><strong>Adoption Rate</strong></td>
+<td>~27% of GitHub Projects</td>
+<td>Industry standard for permissive licenses</td>
+</tr>
+<tr>
+<td><strong>Legal Precedents</strong></td>
+<td>Well-tested in court</td>
+<td>Reduced legal uncertainty</td>
+</tr>
+<tr>
+<td><strong>Corporate Acceptance</strong></td>
+<td>High (Google, Microsoft, Facebook)</td>
+<td>Preferred by major tech companies</td>
+</tr>
+</tbody>
+</table>
+
+## 🛠️ Implementation Guide
+
+### For Project Maintainers
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Location</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>LICENSE</strong></td>
+<td>Project Root</td>
+<td>Full MIT License text</td>
+</tr>
+<tr>
+<td><strong>README.md</strong></td>
+<td>Project Root</td>
+<td>License summary and badge</td>
+</tr>
+<tr>
+<td><strong>package.json</strong></td>
+<td>Project Root</td>
+<td>License field: "MIT"</td>
+</tr>
+</tbody>
+</table>
+
+### License Badge
+```markdown
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+```
+
+## 📞 Support & Compliance
+
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Purpose</th>
+<th>Access</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Open Source Initiative</strong></td>
+<td>Official license documentation</td>
+<td>opensource.org/licenses/MIT</td>
+</tr>
+<tr>
+<td><strong>GitHub Licensing</strong></td>
+<td>Automated license detection</td>
+<td>github.com/licensee/licensee</td>
+</tr>
+<tr>
+<td><strong>SPDX Identifier</strong></td>
+<td>Standard license identifier</td>
+<td>SPDX-License-Identifier: MIT</td>
+</tr>
+</tbody>
+</table>
+
+---
+
+**Copyright (c) 2025 Raslen**  
+*Promoting open source collaboration and innovation* 🚀
