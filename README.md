@@ -1,5 +1,131 @@
 # ⚡ CHARGI — Smart Electric Car Charging Station
 
+## 📁 Project Repository Structure
+
+<table>
+<thead>
+<tr>
+<th>File/Folder</th>
+<th>Type</th>
+<th>Description</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>EV_charging_point/</strong></td>
+<td>Directory</td>
+<td>Source code for charging point management</td>
+<td>Complete C++ Qt application code</td>
+</tr>
+<tr>
+<td><strong>Badge_chargi.png</strong></td>
+<td>Image</td>
+<td>Personal project badge</td>
+<td>Professional branding and recognition</td>
+</tr>
+<tr>
+<td><strong>POSTER-electric-car-station.png</strong></td>
+<td>Image</td>
+<td>Main project poster</td>
+<td>Visual project overview and marketing</td>
+</tr>
+<tr>
+<td><strong>chargi_poster.png</strong></td>
+<td>Image</td>
+<td>Alternative project poster</td>
+<td>Additional promotional material</td>
+</tr>
+<tr>
+<td><strong>advertisement_chargi.mp4</strong></td>
+<td>Video</td>
+<td>Professional advertisement video</td>
+<td>Project promotion and concept showcase</td>
+</tr>
+<tr>
+<td><strong>chargi_fisrt presentation.pptx</strong></td>
+<td>Presentation</td>
+<td>Functional & non-functional requirements</td>
+<td>Application structure and specifications</td>
+</tr>
+<tr>
+<td><strong>chargi_arduino.pptx</strong></td>
+<td>Presentation</td>
+<td>Arduino components and integration</td>
+<td>Hardware architecture and IoT components</td>
+</tr>
+<tr>
+<td><strong>tutorial.mp4</strong></td>
+<td>Video</td>
+<td>Live demo and application walkthrough</td>
+<td>Step-by-step system operation</td>
+</tr>
+<tr>
+<td><strong>README.md</strong></td>
+<td>Documentation</td>
+<td>Comprehensive project documentation</td>
+<td>Technical specifications and user guide</td>
+</tr>
+<tr>
+<td><strong>LICENSE</strong></td>
+<td>Legal</td>
+<td>MIT License file</td>
+<td>Open-source usage permissions</td>
+</tr>
+</tbody>
+</table>
+
+## 🎬 Media & Documentation Resources
+
+<table>
+<thead>
+<tr>
+<th>Resource Type</th>
+<th>File Name</th>
+<th>Content Description</th>
+<th>Audience</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Advertisement Video</strong></td>
+<td><code>advertisement_chargi.mp4</code></td>
+<td>Professional marketing video showcasing project vision and features</td>
+<td>General Public, Investors</td>
+</tr>
+<tr>
+<td><strong>Live Demo Tutorial</strong></td>
+<td><code>tutorial.mp4</code></td>
+<td>Complete system walkthrough showing actual application operation</td>
+<td>Users, Developers, Students</td>
+</tr>
+<tr>
+<td><strong>Technical Presentation</strong></td>
+<td><code>chargi_first_presentation.pptx</code></td>
+<td>Application architecture, functional & non-functional requirements</td>
+<td>Technical Reviewers, Developers</td>
+</tr>
+<tr>
+<td><strong>Hardware Presentation</strong></td>
+<td><code>chargi_arduino.pptx</code></td>
+<td>Arduino components, circuit diagrams, IoT integration details</td>
+<td>Engineers, Hardware Enthusiasts</td>
+</tr>
+<tr>
+<td><strong>Project Posters</strong></td>
+<td><code>POSTER-electric-car-station.png</code><br><code>chargi_poster.png</code></td>
+<td>Visual project summaries for exhibitions and presentations</td>
+<td>Academic Review, Public Display</td>
+</tr>
+<tr>
+<td><strong>Professional Badge</strong></td>
+<td><code>Badge_chargi.png</code></td>
+<td>Personal project badge for portfolio and recognition</td>
+<td>Portfolio, Professional Profiles</td>
+</tr>
+</tbody>
+</table>
+
 ## 🚗 Project Overview
 
 CHARGI is a comprehensive C++ Qt-based desktop application integrated with an Arduino-powered 3D prototype of an electric vehicle (EV) charging station. This intelligent system combines IoT, embedded systems, and software engineering to create an eco-friendly charging station management solution.
@@ -37,6 +163,39 @@ CHARGI is a comprehensive C++ Qt-based desktop application integrated with an Ar
 <td>🌞 Solar-Powered</td>
 <td>Renewable energy integration</td>
 <td>Eco-friendly operation</td>
+</tr>
+</tbody>
+</table>
+
+## 📺 Live Demonstrations & Tutorials
+
+<table>
+<thead>
+<tr>
+<th>Media Resource</th>
+<th>Duration</th>
+<th>Key Content</th>
+<th>Access Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Advertisement Video</strong></td>
+<td>2-3 minutes</td>
+<td>Project vision, features, benefits</td>
+<td><code>advertisement_chargi.mp4</code></td>
+</tr>
+<tr>
+<td><strong>Live Demo Tutorial</strong></td>
+<td>10-15 minutes</td>
+<td>Full application walkthrough</td>
+<td><code>tutorial.mp4</code></td>
+</tr>
+<tr>
+<td><strong>LinkedIn Project Page</strong></td>
+<td>N/A</td>
+<td>Professional project showcase</td>
+<td><a href="https://www.linkedin.com/in/raslen-ferchihi/details/projects/">LinkedIn Projects</a></td>
 </tr>
 </tbody>
 </table>
@@ -86,46 +245,41 @@ CHARGI is a comprehensive C++ Qt-based desktop application integrated with an Ar
 </tbody>
 </table>
 
-## ⚙️ Technical Stack
+## 🎯 Quick Access Guide
 
 <table>
 <thead>
 <tr>
-<th>Category</th>
-<th>Technology</th>
-<th>Purpose</th>
+<th>What You Need</th>
+<th>Recommended File</th>
+<th>Time Required</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Desktop Application</strong></td>
-<td>C++ / Qt Framework</td>
-<td>Main application development and UI</td>
+<td><strong>Quick Overview</strong></td>
+<td><code>advertisement_chargi.mp4</code> (2-3 min)</td>
+<td>3 minutes</td>
 </tr>
 <tr>
-<td><strong>Hardware Platform</strong></td>
-<td>Arduino Uno, sensors, motors, LCD screens</td>
-<td>Physical prototype and IoT integration</td>
+<td><strong>Technical Understanding</strong></td>
+<td><code>chargi_first_presentation.pptx</code></td>
+<td>10 minutes</td>
 </tr>
 <tr>
-<td><strong>Database</strong></td>
-<td>Oracle SQL</td>
-<td>Data storage and management</td>
+<td><strong>Hardware Details</strong></td>
+<td><code>chargi_arduino.pptx</code></td>
+<td>15 minutes</td>
 </tr>
 <tr>
-<td><strong>UI Design</strong></td>
-<td>Qt Designer, Slidesgo visuals</td>
-<td>User interface design and graphics</td>
+<td><strong>Full Demo</strong></td>
+<td><code>tutorial.mp4</code> (Live walkthrough)</td>
+<td>15 minutes</td>
 </tr>
 <tr>
-<td><strong>Security</strong></td>
-<td>User authentication via CIN & password</td>
-<td>System access control</td>
-</tr>
-<tr>
-<td><strong>Prototype</strong></td>
-<td>3D maquette with solar tracking</td>
-<td>Physical demonstration model</td>
+<td><strong>Code Exploration</strong></td>
+<td><code>EV_charging_point/</code> directory</td>
+<td>30+ minutes</td>
 </tr>
 </tbody>
 </table>
@@ -213,309 +367,97 @@ CHARGI is a comprehensive C++ Qt-based desktop application integrated with an Ar
 </tbody>
 </table>
 
-### LED Status Indicators
+## 📊 Project Presentations Overview
 
 <table>
 <thead>
 <tr>
-<th>LED Color</th>
-<th>Status</th>
-<th>Action</th>
+<th>Presentation File</th>
+<th>Focus Area</th>
+<th>Key Sections</th>
+<th>Target Audience</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>🔴 Red LED</td>
-<td>Charging in progress</td>
-<td>Turns on when charging starts</td>
+<td><strong>chargi_first_presentation.pptx</strong></td>
+<td>Software Architecture</td>
+<td>Functional requirements, system structure, UI design</td>
+<td>Software Engineers, Reviewers</td>
 </tr>
 <tr>
-<td>🟢 Green LED</td>
-<td>Charging complete</td>
-<td>Blinks when charging finishes</td>
+<td><strong>chargi_arduino.pptx</strong></td>
+<td>Hardware Integration</td>
+<td>Circuit diagrams, component specs, IoT workflow</td>
+<td>Hardware Engineers, IoT Specialists</td>
 </tr>
 </tbody>
 </table>
 
-## 🧰 Maintenance Management System
+## 🚀 Getting Started
 
-### Maintenance Components
+### For Different Users:
 
 <table>
 <thead>
 <tr>
-<th>Component</th>
-<th>Icon</th>
-<th>Function</th>
-<th>Integration</th>
+<th>User Type</th>
+<th>Start With</th>
+<th>Then Explore</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>RFID Reader</strong></td>
-<td>🪪</td>
-<td>Identifies client car before maintenance access</td>
-<td>Servo Motor + LCD Display</td>
+<td><strong>Quick Viewer</strong></td>
+<td><code>advertisement_chargi.mp4</code></td>
+<td><code>POSTER-electric-car-station.png</code></td>
 </tr>
 <tr>
-<td><strong>Servo Motor (Entrance Barrier)</strong></td>
-<td>⚙️</td>
-<td>Controls access to maintenance garages</td>
-<td>RFID Reader + IR Sensor</td>
+<td><strong>Technical Reviewer</strong></td>
+<td><code>chargi_first_presentation.pptx</code></td>
+<td><code>EV_charging_point/</code> source code</td>
 </tr>
 <tr>
-<td><strong>IR Sensor</strong></td>
-<td>🚦</td>
-<td>Detects car movement into maintenance path</td>
-<td>Servo Motor + Buzzer</td>
+<td><strong>Hardware Enthusiast</strong></td>
+<td><code>chargi_arduino.pptx</code></td>
+<td>Component specifications</td>
 </tr>
 <tr>
-<td><strong>Push Button (Employee Control)</strong></td>
-<td>🔘</td>
-<td>Manual control for garage exit barrier</td>
-<td>Servo Motor + LCD Display</td>
-</tr>
-<tr>
-<td><strong>Servo Motors (x2 Garage Barriers)</strong></td>
-<td>⚙️</td>
-<td>Control maintenance and car wash garage doors</td>
-<td>Push Button + IR Sensor</td>
-</tr>
-<tr>
-<td><strong>Water Sprinkler Motor</strong></td>
-<td>💧</td>
-<td>Activates water spray for cleaning</td>
-<td>Button + C++ Interface</td>
-</tr>
-<tr>
-<td><strong>LED Indicators (Garage Status)</strong></td>
-<td>💡</td>
-<td>Show garage availability</td>
-<td>C++ Interface + LCD Display</td>
+<td><strong>Potential User</strong></td>
+<td><code>tutorial.mp4</code></td>
+<td>Application features and workflow</td>
 </tr>
 </tbody>
 </table>
 
-### Garage Status Indicators
+## 🔗 External Resources
 
 <table>
 <thead>
 <tr>
-<th>LED Color</th>
-<th>Garage Status</th>
-<th>Meaning</th>
+<th>Platform</th>
+<th>Resource Type</th>
+<th>Content</th>
+<th>Link</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>🔴 Red LED</td>
-<td>Occupied</td>
-<td>Garage currently in use</td>
+<td><strong>LinkedIn</strong></td>
+<td>Professional Portfolio</td>
+<td>Project showcase with detailed description</td>
+<td><a href="https://www.linkedin.com/in/raslen-ferchihi/details/projects/">LinkedIn Projects</a></td>
 </tr>
 <tr>
-<td>🟢 Green LED</td>
-<td>Free</td>
-<td>Garage available for service</td>
+<td><strong>GitHub Repository</strong></td>
+<td>Code & Documentation</td>
+<td>Complete source code and project files</td>
+<td>Current Repository</td>
 </tr>
 </tbody>
 </table>
 
-## ☀️ Solar System Integration
-
-### Solar Tracking Process
-
-<table>
-<thead>
-<tr>
-<th>Step</th>
-<th>Component</th>
-<th>Action</th>
-<th>Result</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Light Sensors (LDR x2)</td>
-<td>Monitor sunlight intensity from both sides</td>
-<td>Determine brightest direction</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Arduino Microcontroller</td>
-<td>Calculates optimal rotation direction</td>
-<td>Determines panel movement (20°-30°)</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Dual Servo Motors</td>
-<td>Rotate solar panel toward sunlight</td>
-<td>Maximizes energy capture</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Temperature Sensor (DHT11)</td>
-<td>Provides environmental data</td>
-<td>Real-time weather information on LCD</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Rechargeable Battery</td>
-<td>Stores captured solar energy</td>
-<td>Powers EV station when sunlight is low</td>
-</tr>
-</tbody>
-</table>
-
-### Battery Management System
-
-<table>
-<thead>
-<tr>
-<th>Battery Level</th>
-<th>System Action</th>
-<th>User Impact</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Below 20-30%</td>
-<td>LCD alert, servo barrier closes</td>
-<td>Charging disabled for recharging</td>
-</tr>
-<tr>
-<td>Charging to 100%</td>
-<td>Continuous monitoring</td>
-<td>System prepares for reactivation</td>
-</tr>
-<tr>
-<td>100% Full</td>
-<td>Red LED off, barrier opens</td>
-<td>Charging services resume</td>
-</tr>
-</tbody>
-</table>
-
-## 🔄 Maintenance Workflow
-
-### Car Entry Process
-
-<table>
-<thead>
-<tr>
-<th>Step</th>
-<th>Component</th>
-<th>Action</th>
-<th>Next Step</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>RFID Reader</td>
-<td>Identifies client vehicle</td>
-<td>Sends verification signal</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Servo Motor</td>
-<td>Lifts entrance barrier</td>
-<td>Allows vehicle entry</td>
-</tr>
-<tr>
-<td>3</td>
-<td>IR Sensor</td>
-<td>Confirms car entry</td>
-<td>Triggers barrier closure</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Servo Motor</td>
-<td>Closes barrier after entry</td>
-<td>Ensures security</td>
-</tr>
-</tbody>
-</table>
-
-### Service Execution
-
-<table>
-<thead>
-<tr>
-<th>Garage Type</th>
-<th>Service</th>
-<th>Activation</th>
-<th>Completion</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Car Wash</strong></td>
-<td>Automatic cleaning</td>
-<td>Employee push button</td>
-<td>Sprinkler motor activates</td>
-</tr>
-<tr>
-<td><strong>Maintenance</strong></td>
-<td>Mechanical repairs</td>
-<td>Vehicle entry</td>
-<td>Service completion</td>
-</tr>
-<tr>
-<td><strong>Both Garages</strong></td>
-<td>Exit process</td>
-<td>Employee push button</td>
-<td>Barrier opens, LED turns green</td>
-</tr>
-</tbody>
-</table>
-
-## 🌱 Sustainable Impact
-
-<table>
-<thead>
-<tr>
-<th>Sustainability Feature</th>
-<th>Icon</th>
-<th>Environmental Benefit</th>
-<th>Impact Level</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Renewable Solar Energy</td>
-<td>☀️</td>
-<td>Reduces grid electricity consumption</td>
-<td>High</td>
-</tr>
-<tr>
-<td>Water Efficiency</td>
-<td>🚿</td>
-<td>Optimized water usage in car wash</td>
-<td>Medium</td>
-</tr>
-<tr>
-<td>EV Adoption Support</td>
-<td>🌍</td>
-<td>Reduces fossil fuel dependency</td>
-<td>High</td>
-</tr>
-<tr>
-<td>Smart Automation</td>
-<td>🌿</td>
-<td>Energy-efficient operations</td>
-<td>Medium</td>
-</tr>
-<tr>
-<td>Pollution Reduction</td>
-<td>💨</td>
-<td>Lowers carbon emissions</td>
-<td>High</td>
-</tr>
-</tbody>
-</table>
-
-## 👩‍💻 Development Team
+## 👥 Development Team
 
 <table>
 <thead>
@@ -554,27 +496,7 @@ CHARGI is a comprehensive C++ Qt-based desktop application integrated with an Ar
 </tbody>
 </table>
 
-### 🎓 Academic Information
-<table>
-<thead>
-<tr>
-<th>Institution</th>
-<th>Program</th>
-<th>Year</th>
-<th>Project Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Engineering School</td>
-<td>2A18 Engineering Program</td>
-<td>2nd Year</td>
-<td>Comprehensive Engineering Project</td>
-</tr>
-</tbody>
-</table>
-
-## 🎯 Key Innovations
+## 🌟 Key Features Highlight
 
 <table>
 <thead>
@@ -615,4 +537,29 @@ CHARGI is a comprehensive C++ Qt-based desktop application integrated with an Ar
 
 ---
 
+## 🎯 Start Exploring CHARGI Today!
+
+### 🎥 **Watch the Advertisement:**
+- **File:** `advertisement_chargi.mp4`
+- **Duration:** 2-3 minutes
+- **Content:** Project vision and key features
+
+### 🔧 **See it in Action:**
+- **File:** `tutorial.mp4` 
+- **Duration:** 10-15 minutes
+- **Content:** Complete live demonstration
+
+### 📚 **Deep Dive into Technical Details:**
+- **Software:** `chargi_first_presentation.pptx`
+- **Hardware:** `chargi_arduino.pptx`
+- **Code:** `EV_charging_point/` directory
+
+### 💼 **View Professional Showcase:**
+**[LinkedIn Project Portfolio](https://www.linkedin.com/in/raslen-ferchihi/details/projects/)**
+
+---
+
 **Built with innovation and sustainability in mind for the future of electric mobility** ⚡🌱
+
+**Developed by Raslen Ferchichi & Team**  
+*Engineering the future of smart electric vehicle infrastructure* 🚗💡
